@@ -1,12 +1,13 @@
-import { MainPage } from "@/components/Signup";
-import { ModalPage } from "@/components/Signup/ModalPage";
+import { MainPage, Step1, Step2 } from "@/components/Signup";
+
 import Image from "next/image";
 
 export default function Signup() {
 	return (
-		<div className="flex items-center justify-center mx-auto w-full h-screen overflow-y-scroll">
+		<div className="flex  items-start lg:items-center justify-center w-full h-screen lg:h-auto min-h-screen">
 			<MainPage>
-				<ModalPage />
+				{/* <Step1 /> */}
+				<Step2 />
 			</MainPage>
 		</div>
 	);

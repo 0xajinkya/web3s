@@ -1,2 +1,3 @@
 export * from "./MainPage";
-export * from "./ModalPage";
+export * from "./Step1";
+export * from "./Step2";
